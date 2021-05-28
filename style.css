@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    transition: background-image 1s ease-in-out;
+    background: no-repeat;
+  }
+  
+  .time {
+    font-size: 8rem;
+    
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+  }
+  
+  h3 {
+    font-size: 5rem;
+  }
+
+  .quote {
+    font-size: 1.7rem;
+    margin-top: 20px;
+  }
+
+  figcaption {
+    float: right
+  }
+
+  .weather {
+    font-size: 1.3rem;
+    width: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .position__btn {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .btn {
+    background-image: url('./assets/images/icons/reload.png');
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 10px;
+  }
+  .btn:hover{
+    opacity: 0.6;
+  }
+  .btn:active,
+  .btn:focus {
+    outline: 0;
+  }
+  .btn:active{
+    transform: scale(1.02)
+  }
+
+  @media (max-width: 1366px) {
+    .time {
+      font-size: 4rem;
+    }
+    .weather {
+      font-size: 1.1rem;
+    }
+    .quote {
+      font-size: 1.3rem;
+      margin-top: 0px;
+    }
+    h3 { 
+      font-size: 3rem;
+      margin-bottom: 0px;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    h1 {
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background-image: url('./assets/images/icons/reload.png');
+      height: 60px;
+      width: 60px;
+      border-radius: 10px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .time {
+      font-size: 3rem;
+    }
+    .weather {
+      font-size: 1rem;
+      margin: 0px;
+    }
+    .quote {
+      font-size: 1rem;
+      margin-top: 0px;
+    }
+    h3 { 
+      font-size: 2rem;
+      margin-bottom: 0px;
+    }
+    h2 {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    h1 {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      background-image: url('./assets/images/icons/reload32x32.png');
+      height: 32px;
+      width: 32px;
+      border-radius: 10px;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .time {
+      font-size: 1.5rem;
+    }
+    .weather {
+      font-size: 0.6rem;
+      margin: 0px;
+    }
+    .quote {
+      font-size: 0.7rem;
+      margin: 0px;
+    }
+    h3 { 
+      font-size: 1.3rem;
+      margin: 0px;
+    }
+    h2 {
+      font-size: 0.7rem;
+      margin: 0;
+    }
+    h1 {
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      background-image: url('./assets/images/icons/reload16x16.png');
+      height: 16px;
+      width: 16px;
+      border-radius: 10px;
+    }
+  }
+  
